@@ -1,0 +1,53 @@
+/* Reset de estilos padrão */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da página */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #000;
+    text-align: center;
+}
+
+.container {
+    font-size: 22px;
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 80px;
+    background-color: #fff;
+    border-radius: 36px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: rgb(0, 0, 0); /* Cor preta para h1 */
+}
+h2 {
+    font-size: 80px;
+    color: rgb(255, 255, 255); /* Cor preta para h1 */
+}
+
+/* Estilo dos links de imagem */
+a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+/* Adicionando algum espaçamento entre as imagens */
+img {
+    margin-bottom: 10px;
+}
+
+/* Efeito de hover nas imagens */
+a:hover {
+    opacity: 0.8;
+}
+
+/* Estilo do formulário (opcional) */
+form {
+    margin-top: 50px;
+}
